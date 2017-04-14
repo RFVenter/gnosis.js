@@ -247,7 +247,7 @@ var gnosis =
 	    this.initialize = new _promise2.default(function (resolve, reject) {
 	      _this.web3.eth.getAccounts((0, _callbacks.promiseCallback)(resolve, reject));
 	    }).then(function (result) {
-	      if (result.length > 0) {
+	      if (result && result.length > 0) {
 	        _this.account = result[0];
 	      } else {
 	        _this.account = '0x0000000000000000000000000000000000000000';
