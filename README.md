@@ -8,7 +8,7 @@ gnosis.js
 Based on the next generation crypto currency network Ethereum.
 Make complex predictions with an easy to use prediction market.
 
-Gnosis.js is the javascript library of Gnosis, made to allow users build
+Gnosis.js is the javascript library of Gnosis, made to allow user built
 applications on top of it easier, interacting with the Gnosis API and contracts.
 
 * Designed to use with [batch requests](https://github.com/ethereum/wiki/wiki/JavaScript-API#batch-requests).
